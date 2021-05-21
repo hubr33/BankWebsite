@@ -1,0 +1,361 @@
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: calc(100vh - 80px);
+}
+
+main aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+  height: 100%;
+}
+
+main aside .btns {
+  width: 90%;
+  height: 100px;
+  background-color: #eeecec;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 6px black;
+          box-shadow: 1px 1px 6px black;
+}
+
+main aside .btns .exchangerContainer,
+main aside .btns .transferContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+main aside .btns .exchangerContainer button,
+main aside .btns .transferContainer button {
+  border: none;
+  margin-right: 80px;
+  font-size: 22px;
+  background-color: transparent;
+  font-family: "Padauk", sans-serif;
+  color: #b40000;
+}
+
+main aside .btns .exchangerContainer button:hover,
+main aside .btns .transferContainer button:hover {
+  cursor: pointer;
+  color: #f00000;
+}
+
+main aside .btns .exchangerContainer i,
+main aside .btns .transferContainer i {
+  margin-left: 80px;
+  font-size: 30px;
+}
+
+main aside .myCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  height: 200px;
+  background-color: #eeecec;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 6px black;
+          box-shadow: 1px 1px 6px black;
+}
+
+main aside .myCard .cardImg {
+  height: 180px;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-image: url("../cardImg.png");
+}
+
+main aside .myCard .cardNumber {
+  width: 100%;
+}
+
+main aside .myCard .cardNumber h3 {
+  padding-left: 20px;
+}
+
+main aside .myCard .cardNumber p {
+  padding-left: 30px;
+}
+
+main aside .contactInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 90%;
+  height: 240px;
+  background-color: #eeecec;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 6px black;
+          box-shadow: 1px 1px 6px black;
+}
+
+main aside .contactInfo p {
+  padding-left: 20px;
+}
+
+main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  height: 100%;
+}
+
+main section div.mainInfo {
+  width: 90%;
+  height: 300px;
+  background-color: #eeecec;
+  margin-top: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 6px black;
+          box-shadow: 1px 1px 6px black;
+}
+
+main section div.mainInfo div.firstInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  height: 100px;
+}
+
+main section div.mainInfo div.firstInfo p {
+  padding-left: 20px;
+}
+
+main section div.mainInfo div.firstInfo p:nth-child(1) {
+  background-color: #b4b4b4;
+  width: 100px;
+  padding: 3px 0 3px 20px;
+}
+
+main section div.mainInfo div.firstInfo p:nth-child(2),
+main section div.mainInfo div.firstInfo p:nth-child(3) {
+  font-size: 20px;
+}
+
+main section div.mainInfo .accountBalance {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 200px;
+}
+
+main section div.mainInfo .accountBalance .balance {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 25%;
+  height: 100%;
+}
+
+main section div.mainInfo .accountBalance .balance p {
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+main section div.mainInfo .accountBalance .balance p:nth-child(2) span {
+  color: red;
+}
+
+main section div.mainInfo .accountBalance .currentBalance {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 45%;
+  height: 100%;
+}
+
+main section div.mainInfo .accountBalance .currentBalance h2 {
+  padding-left: 40px;
+  padding-bottom: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+main section div.mainInfo .accountBalance .currentBalance p {
+  font-size: 36px;
+  font-weight: bold;
+  padding-left: 60px;
+}
+
+main section div.mainInfo .accountBalance .transferAndHistoryButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main section div.mainInfo .accountBalance .transferAndHistoryButtons .transferBtn,
+main section div.mainInfo .accountBalance .transferAndHistoryButtons .historyBtn {
+  border-radius: 6px;
+  font-size: 22px;
+  width: 80%;
+  height: 40%;
+  border: 2px solid #b40000;
+  color: #b40000;
+  background-color: white;
+}
+
+main section div.mainInfo .accountBalance .transferAndHistoryButtons .transferBtn:hover,
+main section div.mainInfo .accountBalance .transferAndHistoryButtons .historyBtn:hover {
+  background-color: #b40000;
+  color: white;
+}
+
+main section .operations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  height: 260px;
+  background-color: yellow;
+  border-radius: 10px;
+  background-color: #eeecec;
+  -webkit-box-shadow: 1px 1px 6px black;
+          box-shadow: 1px 1px 6px black;
+}
+
+main section .operations .operationInfo {
+  width: 100%;
+}
+
+main section .operations .operationInfo h1 {
+  margin-left: 20px;
+}
+
+main section .operations .operationInfo p {
+  margin-left: 30px;
+}
+
+main section .operations .operationButtons {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  height: 60px;
+  overflow: hidden;
+}
+
+main section .operations .operationButtons button {
+  width: 33.33%;
+  height: 70%;
+  border: 0;
+  border-left: 2px solid white;
+  background-color: #b40000;
+  color: white;
+  font-size: 18px;
+}
+
+main section .operations .operationButtons button:hover {
+  cursor: pointer;
+}
+
+main section .operations .operationStatus {
+  overflow: scroll;
+  width: 90%;
+  height: 140px;
+  background-color: yellowgreen;
+}
+
+main section .operations .operationStatus .singleOperation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: brown;
+}
+/*# sourceMappingURL=Start.css.map */
