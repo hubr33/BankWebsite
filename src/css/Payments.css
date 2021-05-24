@@ -1,0 +1,47 @@
+.payments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: calc(100vh - 80px);
+}
+
+.payments section {
+  width: 60%;
+  height: 100%;
+}
+
+.payments section .paymentsText {
+  font-family: "Teko", sans-serif;
+}
+
+.payments section .paymentsText h2 {
+  font-size: 40px;
+}
+
+.payments section .paymentsText ul {
+  list-style: square;
+}
+
+.payments section .paymentsText ul li {
+  padding-top: 40px;
+  font-size: 24px;
+}
+
+.payments aside {
+  width: 40%;
+  height: 100%;
+}
+
+.payments aside div {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../bankPhoto.jpg");
+}
+
+.payments aside p {
+  margin-bottom: 60px;
+  font-size: 60px;
+  font-family: "Teko", sans-serif;
+}
+/*# sourceMappingURL=Payments.css.map */
